@@ -79,3 +79,40 @@ Objetivo da atividade: fazer um programa para receber dados de uma pesquisa (ati
           <input type="submit" value="Cadastrar" />
 </form>
 ```
+
+### Resolução apresentada ###
+No item "2" da sua "missão" deve estar mandando abrir o formulário "ativ_formulario2.php" para continuar seus dados na outra página mais notei que seu formulário estava mandando para o **"Trabalho4.2.php"**.
+
+
+```
+<form method = "get" action="Trabalho4.2.php">
+  <fieldset>
+    <legend>Informações</legend>
+      <label>Nome:</label>
+        <input type="text" name="nome" size="40" maxlength="30" required/>
+        <?php echo '</br>'?>
+...
+```
+
+Fiz a seguinte alteração (justamente para abrir a página que pede):
+``` 
+<form method="GET" action="./ativ_formulario2.php">
+    <fieldset>
+      <legend>Informações</legend>
+      <label>Nome:</label>
+      <input type="text" name="nome" size="40" maxlength="30" required/>
+      <?php echo '</br>'?>
+      Idade:
+...
+```
+
+Ai você deve criar um arquivo para receber os dados enviados o formulário **"ativ_formulario2.php"**.
+
+Para receber dados do tipo GET usar o seguinte código: 
+```
+$nome = $_GET['nome'];
+```
+
+Esse exemplo guarda em uma variável o nome do formulário da outra página.
+
+Código que criei para o arquivo [ativ_formulario2.php](https://github.com/AlysonDEV/forumscript-carolinexavier/blob/master/ativ_formulario2.php) :tada:
