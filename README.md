@@ -2,7 +2,7 @@
  Dica de PHP no Forum Script
 
  ## Forum Script
- Meu perfil do forum scrip [Alyson Ronnan](https://forum.scriptbrasil.com.br/profile/94500-alyson-ronnan-martins/)
+ Meu perfil do forum script [Alyson Ronnan](https://forum.scriptbrasil.com.br/profile/94500-alyson-ronnan-martins/)
 
  ### Duvida no forum:
  Bom, o meu professor passou um exercício complicado, porém só tenho a primeira parte dele pois estou travada no resto dele, poderiam me ajudar?
