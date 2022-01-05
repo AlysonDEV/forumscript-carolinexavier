@@ -1,4 +1,4 @@
-# forumscript-carolinexavier
+# Forum Script - Carol Xavier - PHP e Requiest GET
  Dica de PHP no Forum Script
 
  ## Forum Script
